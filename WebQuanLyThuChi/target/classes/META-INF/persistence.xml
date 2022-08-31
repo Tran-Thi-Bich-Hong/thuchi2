@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.mycompany_WebQuanLyThuChi_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.mycompany.pojo.Gender</class>
+    <class>com.mycompany.pojo.TypeUser</class>
+    <class>com.mycompany.pojo.Earnings</class>
+    <class>com.mycompany.pojo.TypeExpenditures</class>
+    <class>com.mycompany.pojo.UserRole</class>
+    <class>com.mycompany.pojo.TypeEarnings</class>
+    <class>com.mycompany.pojo.Acount</class>
+    <class>com.mycompany.pojo.EarningsDetail</class>
+    <class>com.mycompany.pojo.ApprovalStatus</class>
+    <class>com.mycompany.pojo.JoinGroup</class>
+    <class>com.mycompany.pojo.Group1</class>
+    <class>com.mycompany.pojo.Expenditures</class>
+    <class>com.mycompany.pojo.ApprovalStatus_1</class>
+    <class>com.mycompany.pojo.Expenditures_1</class>
+    <class>com.mycompany.pojo.Gender_1</class>
+    <class>com.mycompany.pojo.TypeEarnings_1</class>
+    <class>com.mycompany.pojo.JoinGroup_1</class>
+    <class>com.mycompany.pojo.Acount_1</class>
+    <class>com.mycompany.pojo.TypeExpenditures_1</class>
+    <class>com.mycompany.pojo.TypeUser_1</class>
+    <class>com.mycompany.pojo.UserRole_1</class>
+    <class>com.mycompany.pojo.JoinGr</class>
+    <class>com.mycompany.pojo.Roomgr</class>
+    <class>com.mycompany.pojo.RoomIdea</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/thuchidb?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="12345678"/>
+    </properties>
+  </persistence-unit>
+</persistence>

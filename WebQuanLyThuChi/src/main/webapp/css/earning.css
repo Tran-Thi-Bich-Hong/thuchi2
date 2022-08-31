@@ -1,0 +1,34 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 27, 2022, 12:58:14 PM
+    Author     : Administrator
+*/
+
+input {
+    position: relative;
+    width: 150px; height: 20px;
+    color: white;
+}
+
+input:before {
+    position: absolute;
+    top: 3px; left: 3px;
+    content: attr(data-date);
+    display: inline-block;
+    color: black;
+}
+
+input::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: black;
+    opacity: 1;
+}
